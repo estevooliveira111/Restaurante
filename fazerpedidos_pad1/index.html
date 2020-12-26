@@ -54,7 +54,7 @@
                 <br><br>
 
                 <br><br>
-                <label class="messa" for="messa">Messa:<input type="text"/></label>
+                <label class="messa" for="messa">Nº da Messa:<input  class="numero" type="text"/></label>
                 <br><br>
 
 
@@ -68,7 +68,9 @@
                         <p class="menu-p">Seu hambúrguer saudável com carne magra, receita com patinho. Além disso, chia e linhaça são acrescentadas à carne.</p>
                         <h3 class="price">R$12:00</h3>
                         
-                        <input type="number" name="quantidadedehamburguerfuncional" id="quantidadedehamburguerfuncional">
+                        <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerfuncional" id="quantidadedehamburguerfuncional">
+                        <input type="checkbox" name="quantidadedehamburguerfuncional" id="quantidadedehamburguerfuncional">
+
                     </div>
                 </div>
                 <div class="menu-hold">
@@ -79,7 +81,10 @@
                         <h1 class="menu-title">Hambúrguer misto</h1>
                         <p class="menu-p">Duas carnes são usadas: alcém e patinho. Além disso, precisar de picles, tomate, cebola roxa, alface, cheddar, cebola crocante e catupiry.</p>
                         <h3 class="price">R$18:00</h3>
-                        <input type="number" name="quantidadedehamburguermisto" id="quantidadedehamburguermisto">
+                        <label for="quantidades">Quantidades</label>
+                        <input class="produtos" type="number" name="quantidadedehamburguermisto" id="quantidadedehamburguermisto"/>
+                        <input type="checkbox" name="quantidadedehamburguermisto" id="quantidadedehamburguermisto">
+
                     </div>
                 </div>
                 <div class="menu-hold">
@@ -90,7 +95,8 @@
                             <h1 class="menu-title">Hambúrguer de frango</h1>
                             <p class="menu-p">Diversos temperos na carne de frango. Além disso, o sanduíche também ganha um toque de cogumelos, tomates e bacon.</p>
                             <h3 class="price">R$15:00</h3>
-                            <input type="number" name="quantidadedehamburguerdefrango" id="quantidadedehamburguerdefrango">
+                            <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdefrango" id="quantidadedehamburguerdefrango">
+                            <input type="checkbox" name="quantidadedehamburguerdefrango" id="quantidadedehamburguerdefrango">
 
                       </div>
                     </div>
@@ -100,9 +106,10 @@
                                 &nbsp;
                             </div>
                             <h1 class="menu-title">Hambúrguer de picanha</h1>
-                            <p class="menu-p">Além de ser feito com picanha, esse hambúrguer também ganha bacon picado e alguns temperinhos. Para completar o sabor do seu lanche, acrescente queijo, cebolas caramelizadas e molho barbecue</p>
+                            <p class="menu-p">Feito com picanha e bacon picado com alguns temperinhos. Para completar o sabor do seu lanche, acrescente queijo, cebolas caramelizadas e molho barbecue</p>
                             <h3 class="price">R$23:50</h3>
-                            <input type="number" name="quantidadedehamburguerdepicanha" id="quantidadedehamburguerdepicanha">
+                            <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdepicanha" id="quantidadedehamburguerdepicanha">
+                            <input type="checkbox" name="quantidadedehamburguerdepicanha" id="quantidadedehamburguerdepicanha">
 
                         </div>
                    </div>
@@ -112,10 +119,10 @@
                                 &nbsp;
                             </div>
                             <h1 class="menu-title">Hambúrguer de porco</h1>
-                            <p class="menu-p">Para quem busca uma opção bem suculenta, a carne de porco é uma boa pedida. Essa receita ainda tem o toque do relish de pepino, queijo parmesão, alface e tomate.</p>
+                            <p class="menu-p">Para quem busca uma opção bem suculenta, a carne de porco é uma boa pedida. Toque do relish de pepino, queijo parmesão, alface e tomate.</p>
                             <h3 class="price">$23</h3>
-                            <input type="number" name="quantidadedehamburguerdeporco" id="quantidadedehamburguerdeporco">
-
+                            <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdeporco" id="quantidadedehamburguerdeporco">
+                            <input type="checkbox" name="quantidadedehamburguerdeporco" id="quantidadedehamburguerdeporco">
                         </div>
                     </div>
                  <div class="menu-hold">
@@ -126,8 +133,8 @@
                             <h1 class="menu-title">Hambúrguer de Carne e Quinoa</h1>
                             <p class="menu-p">Para deixar seu lanche mais nutritivo, acrescentar quinoa é uma boa pedida. O cereal deve ser usado em flocos</p>
                             <h3 class="price">$23</h3>
-                            <input type="number" name="quantidadedehamburguerdecarneequinoa" id="quantidadedehamburguerdecarneequinoa">
-
+                            <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdecarneequinoa" id="quantidadedehamburguerdecarneequinoa">
+                            <input type="checkbox" name="quantidadedehamburguerdecarneequinoa" id="quantidadedehamburguerdecarneequinoa">
                         </div>
                     </div>
                     <div class="menu-hold">
@@ -138,29 +145,47 @@
                             <h1 class="menu-title">Hambúrguer de siri</h1>
                             <p class="menu-p">O famoso hambúrguer do Bob Esponja também tem uma versão fora das telinhas. A carne leva vários ingredientes para incrementar o sabor e é necessário preparar o molho secreto para completar o sabor.</p>
                            <h3 class="price">$23</h3>
-                           <input type="number" name="quantidadedehamburguerdesiri" id="quantidadedehamburguerdesiri">
-
+                           <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdesiri" id="quantidadedehamburguerdesiri">
+                           <input type="checkbox" name="quantidadedehamburguerdesiri" id="quantidadedehamburguerdesiri">
                      </div>
                     </div>
+                    
+
+                    
                     <div class="menu-hold">
+
+
                         <div class="menu-container">
                             <div class="menu-img8">
                                 &nbsp;
                             </div>
                             <h1 class="menu-title">Hambúrguer de salmão</h1>
-                            <p class="menu-p">Se você está procurando um sanduíche que mescle o informal com um toque de sofisticação, essa pode ser a receita ideal. O salmão tem um gosto suave que combina muito bem com os temperos escolhidos.</p>
+                            <p class="menu-p">Sanduíche que mescle o informal com um toque de sofisticação, essa pode ser a receita ideal. O salmão com gosto suave combinado com os temperos escolhidos.</p>
                             <h3 class="price">$23</h3>
-                            <input type="number" name="quantidadedehamburguerdesalmao" id="quantidadedehamburguerdesalmao">
+                            <label for="quantidades">Quantidades</label><input class="produtos" type="number" name="quantidadedehamburguerdesalmao" id="quantidadedehamburguerdesalmao">
+                            <input type="checkbox" name="quantidadedehamburguerdesalmao" id="quantidadedehamburguerdesalmao">
 
                         </div>
+                        <br><br> <br><br>
                     </div>
+                    
+<div class="pagamento">
+    <br><br>
 
-               
+                    <Legend> Forma de Pagamento:   </Legend>
+                    <br><br>
+                    <input type="radio" name="formadepagamento" id="dinheiro"><label for="cartao">Cartão</label>
+                    <br><br>
+                    <input type="radio" name="formadepagamento" id="cartão"><label for="dinheiro">Dinheiro</label>
+                    <br><br>
+</div>
 
 
                 </div>
             </div>
+            <button class="boto" type="submit">Próximo Pedido</button><br><br> <br><br>
         </section>
+        <br><br> <br><br>
     </form>
 </body>
 </html>

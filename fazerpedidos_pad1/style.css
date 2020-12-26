@@ -288,6 +288,62 @@ body{
 input{
     align-items: center;
     width: 100%;
+}
+.produtos{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.numero{
+    border-radius: 50%;
+    margin-right: 10%;   
+}
+button{
+    margin-top: 5%;
+    float: right;
+}
+.pagamento{
+    font-size: 200%;
+    text-align: center;
+    background-color: black;
+    border: 2px solid #da6b1d;
+    border-radius: 15%;
+    color: white;
+}
+.pagamento:visited,.pagamento:link
+{
+        text-decoration: none;
+        color: white;
+        padding: 2rem 3.5rem;
+        border: 1px solid #da6b1d;
+        border-radius: 200px;
+        box-shadow: 0 0 1rem rgba(236, 118, 40, .5);
+        text-shadow: 0 .3rem 1rem rgba(255,255,255, .5);
+        transition: all .4s ease;
+    }
     
-    
+.pagamento:hover{
+        background-color: #da6b1d;
+        color: white;
+}
+.boto{
+    margin-top: 5%;
+    background-color: #da6b1d;
+    color: white;
+    font-size: 300%;
+    float: right;
+}.boto{
+    font-size: 200%;
+    text-align: center;
+    background-color: black;
+    border: 2px solid #da6b1d;
+    border-radius: 15%;
+    color: white;
+}
+.boto,.boto:link
+{
+        text-decoration: none;
+        color: white;
+        padding: 2rem 3.5rem;
+        border: 1px solid #da6b1d;
+        border-radius: 200px;
 }
