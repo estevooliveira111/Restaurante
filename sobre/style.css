@@ -16,6 +16,18 @@ body{
 
 /*Menu*/
 
+nav{
+    justify-content: space-around;
+    background-color: black;
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
 
+a{
+    font-size: 200%;
+}
 
 /*Final do menu*/
