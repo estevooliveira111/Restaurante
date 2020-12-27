@@ -80,3 +80,21 @@ body{
     color: white;
 }
 
+/*corpo*/
+h1{
+    color: white;
+    font-size: 1000%;
+    text-align: center;
+    
+}
+.menu{
+    width: 100%;
+    padding: 10rem 5rem;
+    background-image: linear-gradient(to right bottom, rgb(255, 81, 0), rgba(255,0,0,.5));
+}
+table{
+    border: 2px solid #069;
+}
+tr td, tr th{
+    border: 1px solid #69c;
+}
