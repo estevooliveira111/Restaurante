@@ -93,8 +93,46 @@ h1{
     background-image: linear-gradient(to right bottom, rgb(255, 81, 0), rgba(255,0,0,.5));
 }
 table{
-    border: 2px solid #069;
+    font-size: 500%;
+    border: 2px solid rgb(255, 81, 0);
+    background-color: black;
+    text-align: center;
+    color: white;
 }
 tr td, tr th{
-    border: 1px solid #69c;
+    border: 1px solid rgb(255, 81, 0);
+    text-align: center;
+}
+.boto{
+    margin-top: 5%;
+    float: left;
+    color: white;
+}
+a{
+    text-decoration: none;
+
+    color: white;
+}
+.boto{
+    margin-top: 5%;
+    background-color: #da6b1d;
+    color: white;
+    font-size: 300%;
+    float: left;
+}
+.boto{
+    font-size: 200%;
+    text-align: center;
+    background-color: black;
+    border: 2px solid #da6b1d;
+    border-radius: 15%;
+    color: white;
+}
+.boto,.boto:link
+{
+        text-decoration: none;
+        color: white;
+        padding: 2rem 3.5rem;
+        border: 1px solid #da6b1d;
+        border-radius: 200px;
 }
