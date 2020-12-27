@@ -79,4 +79,36 @@ body{
     background-color: #da6b1d;
     color: white;
 }
+.menu{
+    width: 100%;
+    padding: 10rem 5rem;
+    background-image: linear-gradient(to right bottom, rgb(255, 81, 0), rgba(255,0,0,.5));
+}
+h1{
+    font-size: 500%;
+    color: white;
+    margin: 2%;
+    text-align: center;
+}
+.qw{
+    margin-left: 8%;
+}
 
+.base, .list{ 
+    color: white;
+    font-size: 150%;
+}
+.tudo{
+    background-color: black;
+    padding: 5%;
+    border-radius: 30%;
+    
+}
+p{
+    text-align: justify;
+}
+.list{
+    border: solid 1px rgb(255, 81, 0) ;
+    border-radius: 30%;
+    padding: 7%;
+}
