@@ -1,3 +1,4 @@
+/*Base for eve  site*/
 *{
     padding: 0;
     margin: 0;
@@ -13,10 +14,30 @@ body{
     background-color: rgb(27,27,27);
     overflow-x: hidden;
 }
-.header{
-    height: 90vh;
-    position: relative;
+
+
+/*form*/
+
+.basename{
+        font-size: 450%;
+        text-shadow: 0 0 1rem rgba(0,0,0,.9);
+        text-transform: uppercase;
+        color: white;
+        font-weight: 800;
+    }
+
+.basetable{
+    font-size: 450%;
+        text-shadow: 0 0 1rem rgba(0,0,0,.9);
+        text-transform: uppercase;
+        color: white;
+        font-weight: 800;
 }
+
+/*end form*/
+
+
+/*Menu*/
 .menu-container:hover{
     box-shadow: 0 0 5rem rgba(0,0,0,.4);
     transform: scale(1.07);
@@ -32,6 +53,7 @@ body{
     font-size: 3rem;
     text-align: center;
 }
+/*Produtos*/
 
 .price{
     font-size: 3rem;
@@ -41,7 +63,7 @@ body{
     text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
 }
 
-/*Menu*/
+
 .navbar{
     height: 110px;
     width: 100%;
@@ -186,6 +208,7 @@ body{
     text-align: center;
 }
 
+
 .menu-img1{
     height: 50%;
     width: 100%;
@@ -273,34 +296,26 @@ body{
     transition: all .4s ease;
 }
 
-.nome, .messa{
-    font-size: 620%;
-    color: white;
-        text-align: center;
-        text-shadow: 0 0 1rem rgba(0,0,0,.9);
-        text-transform: uppercase;
-        color: white;
-        font-weight: 800;
-    
-}
+
+
+
 
 
 input{
     align-items: center;
     width: 100%;
 }
+
 .produtos{
     margin-left: 10%;
     margin-right: 10%;
 }
-.numero{
-    border-radius: 50%;
-    margin-right: 10%;   
-}
+
 button{
     margin-top: 5%;
     float: right;
 }
+
 .pagamento{
     font-size: 200%;
     text-align: center;
@@ -309,8 +324,8 @@ button{
     border-radius: 15%;
     color: white;
 }
-.pagamento:visited,.pagamento:link
-{
+
+.pagamento:visited,.pagamento:link{
         text-decoration: none;
         color: white;
         padding: 2rem 3.5rem;
@@ -319,7 +334,7 @@ button{
         box-shadow: 0 0 1rem rgba(236, 118, 40, .5);
         text-shadow: 0 .3rem 1rem rgba(255,255,255, .5);
         transition: all .4s ease;
-    }
+}
     
 .pagamento:hover{
         background-color: #da6b1d;
