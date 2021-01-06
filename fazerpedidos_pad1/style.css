@@ -19,21 +19,42 @@ body{
 /*form*/
 
 .basename{
-    font-size: 200%;
     text-align: center;
     background-color: black;
     border: 2px solid #da6b1d;
-    border-radius: 15%;
+    border-radius: 45%;
+    padding: 5%;
     color: white;
+    margin-left: 10%;
+    width: 60%;
+    margin-top: 5%;
     }
 
-.basetable{
+.nome{
     font-size: 200%;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.basetable{
     text-align: center;
     background-color: black;
     border: 2px solid #da6b1d;
-    border-radius: 15%;
+    border-radius: 45%;
     color: white;
+    padding: 5%;
+    margin-left: 10%;
+    width: 60%;
+    height: 10%;
+}
+.table{
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
 /*end form*/
