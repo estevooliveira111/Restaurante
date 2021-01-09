@@ -67,8 +67,7 @@ body{
 }
 
 .menu-p{
-    font-size: 1.4rem;
-    padding: 1rem;
+    padding: 2%;
     text-align: center;
 }
 
@@ -326,7 +325,6 @@ body{
 
 input{
     align-items: center;
-    width: 100%;
 }
 
 .produtos{
@@ -384,4 +382,16 @@ button{
         padding: 2rem 3.5rem;
         border: 1px solid #da6b1d;
         border-radius: 200px;
+}
+.checkbox{
+    height: 5%;
+    background-color: black;
+    width: 10%;
+    margin-left: 30%;
+    align-content: center;
+}
+label{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: end;
 }
