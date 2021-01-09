@@ -334,8 +334,6 @@ body{
 }
 
 .price{
-    font-size: 3rem;
-    margin-top: 1rem;
     text-align: center;
     color: #da6b1d;
     text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
