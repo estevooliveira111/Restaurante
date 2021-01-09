@@ -329,7 +329,8 @@ input{
 
 .produtos{
     margin-left: 10%;
-    margin-right: 10%;
+    height: 6%;
+    width: 50%;
 }
 
 button{
